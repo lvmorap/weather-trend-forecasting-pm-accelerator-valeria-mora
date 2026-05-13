@@ -1,14 +1,13 @@
-# Weather Trend Forecasting - PM Accelerator Assessment
+# Weather Trend Forecasting
 
 **Author:** Valeria Mora  
 **Date:** May 2026  
-**Status:** Advanced Assessment
 
 ---
 
-## 🎯 PM Accelerator Mission
+## PM Accelerator Mission
 
-The PM Accelerator program aims to develop advanced data science and analytics capabilities to drive informed decision-making in global weather forecasting and climate analysis. This assessment demonstrates comprehensive data science skills through exploratory analysis, data preprocessing, predictive modeling, and geographical pattern recognition using real-world weather data.
+By making industry-leading tools and education available to individuals from all backgrounds, we level the playing field for future PM leaders. This is the PM Accelerator motto, as we grant aspiring and experienced PMs what they need most – Access. We introduce you to industry leaders, surround you with the right PM ecosystem, and discover the new world of AI product management skills.
 
 ---
 
@@ -148,7 +147,7 @@ Evolution of global average temperature revealed through:
 
 1. Clone or download this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/lvmorap/weather-trend-forecasting-pm-accelerator-valeria-mora.git
    cd weather-trend-forecasting-pm-accelerator-valeria-mora
    ```
 
@@ -180,21 +179,9 @@ Evolution of global average temperature revealed through:
    - All outputs display inline (no external file dependencies)
    - Estimated execution time: 3-5 minutes (mainly for Random Forest training)
 
-### Expected Runtime
-
-- **Data Loading & Preprocessing:** 10 seconds
-- **EDA Visualizations:** 15 seconds
-- **Correlation Analysis:** 10 seconds
-- **Model Training (Random Forest):** 1-2 minutes
-- **Model Evaluation & Visualizations:** 30 seconds
-- **Time Series & Geographic Analysis:** 20 seconds
-- **Total:** Approximately 4 minutes
-
 ---
 
 ## 📊 Notebook Structure
-
-The refactored notebook follows a professional report format:
 
 ### Sections
 
@@ -208,65 +195,6 @@ The refactored notebook follows a professional report format:
 8. **Feature Importance & Time Series** - Model interpretation and temporal trends
 9. **Geographical Analysis** - Country-level temperature patterns
 10. **Key Findings & Conclusions** - Summary statistics and model performance summary
-
-### Key Design Features
-
-- **Self-Contained Report:** All explanations in markdown cells; code cells execute silently
-- **Inline Visualizations:** All plots render within notebook output (no external file references)
-- **No Hardcoded Comments:** Code is clean; explanations provided in markdown sections
-- **Consistent English:** All text translated from Spanish for professional presentation
-- **Professional Styling:** Seaborn color schemes and matplotlib formatting for publication-quality figures
-
----
-
-## 🔬 Advanced Assessment Criteria Met
-
-### Advanced EDA ✓
-- Comprehensive statistical analysis
-- Anomaly visualization through distribution analysis
-- Correlation heatmap revealing variable relationships
-- Seasonal pattern identification through monthly aggregation
-
-### Forecasting with Multiple Models ✓
-- Linear Regression baseline implementation
-- Random Forest advanced ensemble method
-- Quantitative comparison using MAE, RMSE, and R²
-- Model performance visualization (Actual vs Predicted)
-
-### Unique Analyses ✓
-- **Climate Analysis:** Monthly temperature and precipitation patterns
-- **Environmental Impact:** Humidity-temperature relationships; wind correlations
-- **Feature Importance:** Random Forest feature importance ranking
-- **Spatial Analysis:** Country-level temperature mapping
-- **Geographical Patterns:** Identification of coldest and hottest regions globally
-
----
-
-## 💡 Key Insights & Findings
-
-### Temperature Patterns
-- Clear seasonal variation observed across months
-- Global mean temperature and extremes documented
-- Distinct regional climate zones identified
-
-### Model Performance
-- Random Forest achieves superior accuracy in temperature prediction
-- Average prediction error computed and documented
-- Outperforms Linear Regression significantly in R² score
-
-### Most Important Features for Forecasting
-Ranked by Random Forest importance:
-1. Month (seasonal component)
-2. Day of Year (annual cycle)
-3. Humidity (direct relationship)
-4. Visibility (weather complexity indicator)
-5. Pressure (atmospheric dynamics)
-
-### Geographical Insights
-- Temperature variations are significant across countries
-- Coastal regions show moderation effects
-- Tropical regions maintain consistent high temperatures
-- Polar/high-latitude regions show extreme seasonal variation
 
 ---
 
@@ -308,45 +236,6 @@ weather-trend-forecasting-pm-accelerator-valeria-mora/
 
 ---
 
-## 🎓 Learning Outcomes Demonstrated
-
-This project showcases proficiency in:
-
-1. **Data Cleaning & Preprocessing**
-   - Handling missing values through statistical imputation
-   - Date/time feature engineering
-   - Data validation and quality assessment
-
-2. **Exploratory Data Analysis**
-   - Distribution analysis and visualization
-   - Correlation computation and interpretation
-   - Temporal pattern identification
-
-3. **Machine Learning**
-   - Model selection and comparison
-   - Train/test splitting with proper random seeding
-   - Hyperparameter configuration
-   - Evaluation metric calculation and interpretation
-
-4. **Model Interpretation**
-   - Feature importance analysis
-   - Actual vs predicted visualization
-   - Error distribution understanding
-
-5. **Professional Communication**
-   - Clear section organization
-   - Appropriate visualizations for each finding
-   - Concise technical explanations
-   - Publication-quality figure formatting
-
-6. **Python Programming**
-   - Scikit-learn API mastery
-   - Pandas data manipulation
-   - Matplotlib/Seaborn visualization
-   - Code organization and readability
-
----
-
 ## 🔄 Reproducibility
 
 The analysis is fully reproducible:
@@ -361,45 +250,3 @@ To reproduce results:
 2. Run all cells sequentially from top to bottom
 3. Identical outputs will be generated with same data
 
----
-
-## 📧 Contact & Submission
-
-- **Author:** Valeria Mora
-- **Project Type:** PM Accelerator Advanced Assessment
-- **Submission Date:** May 2026
-
----
-
-## 📖 References
-
-- **Dataset:** [Global Weather Repository - Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/)
-- **Scikit-learn Documentation:** https://scikit-learn.org/
-- **Pandas Documentation:** https://pandas.pydata.org/
-- **Matplotlib/Seaborn:** https://matplotlib.org/, https://seaborn.pydata.org/
-
----
-
-## ✨ Notes
-
-### Notebook Execution
-- All visualizations generate inline during notebook execution
-- No external files required beyond the CSV dataset
-- Code cells contain only essential computations; explanations are in markdown
-- Average execution time: 4 minutes for complete analysis
-
-### Model Training
-- Random Forest with 100 trees may take 1-2 minutes
-- Progress can be monitored through standard output messages
-- Use `n_jobs=-1` for parallel processing on multi-core systems
-
-### Data Privacy
-- Dataset obtained from public Kaggle repository
-- No sensitive personal information included
-- Results are aggregate statistics only
-
----
-
-**Version:** 1.0  
-**Last Updated:** May 2026  
-**Status:** Complete and Ready for Review
